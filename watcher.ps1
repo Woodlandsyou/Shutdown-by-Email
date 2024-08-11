@@ -1,0 +1,1 @@
+while(1) { python .\hello.py;Start-Sleep 10 }
