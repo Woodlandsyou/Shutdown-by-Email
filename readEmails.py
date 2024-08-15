@@ -6,6 +6,6 @@ with MailBox('imap.web.de').login('email_reader@web.de', '2ID2FFEVQCOC2QFFHJAL',
     print(mb.folder.get())
     for msg in mb.fetch():
         print(msg.subject, msg.text)
-        p = Popen(["powershell.exe", "E:\Email-Reader\shutdown.ps1"], stdout=stdout)
+        p = Popen(["powershell.exe", "C:\scripte\Email-Reader\shutdown.ps1"], stdout=stdout)
         p.communicate()
         mb.delete([msg.uid])

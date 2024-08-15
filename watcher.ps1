@@ -1,1 +1,1 @@
-while(1) { python .\hello.py;Start-Sleep 10 }
+while(1) { python .\readEmails.py;Start-Sleep 10 }
